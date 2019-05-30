@@ -1,9 +1,9 @@
 class PostgresqlAT10 < Formula
   desc "Relational database management system"
   homepage "https://www.postgresql.org/"
-  version = "10.8"
+  version = "10.5"
   url "https://ftp.postgresql.org/pub/source/v#{version}/postgresql-#{version}.tar.bz2"
-  sha256 "b198c2aadf1d68308127a0f5b51dbe798958ffe60dd999134f6495c489afcd5d"
+  sha256 "6c8e616c91a45142b85c0aeb1f29ebba4a361309e86469e0fb4617b6a73c4011"
 
   head do
     url "https://git.postgresql.org/git/postgresql.git", :branch => "REL_10_STABLE"
