@@ -2,11 +2,11 @@ class PostgresqlCommon < Formula
   desc "PostgreSQL database-cluster manager"
   homepage "https://packages.qa.debian.org/p/postgresql-common.html"
   version = "189+hb1"
-  url "https://github.com/petere/postgresql-common/archive/#{version}.tar.gz"
+  url "https://github.com/ivanaslamov/postgresql-common/archive/#{version}.tar.gz"
   version version
   sha256 "8db9347cdecee81507dcd92d61c9f20f72d5ed4fac9a1a8afe93e75e9398bc84"
 
-  head "https://github.com/petere/postgresql-common.git", :branch => "homebrew"
+  head "https://github.com/ivanaslamov/postgresql-common.git", :branch => "homebrew"
 
   depends_on "gnu-sed" => :build
   depends_on "coreutils"
