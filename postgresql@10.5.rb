@@ -1,4 +1,4 @@
-class PostgresqlAT10 < Formula
+class PostgresqlAT105 < Formula
   desc "Relational database management system"
   homepage "https://www.postgresql.org/"
   version = "10.5"
