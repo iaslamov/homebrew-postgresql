@@ -42,7 +42,6 @@ class PostgresqlAT105 < Formula
       --with-openssl
       --with-uuid=e2fs
       --with-pam
-      --with-perl
       --with-python
       --with-tcl
       XML2_CONFIG=:
